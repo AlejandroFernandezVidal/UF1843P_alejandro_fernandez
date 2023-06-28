@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --breakpoint: 1200px;
+    --color-primari: rgb(210, 225, 201);
+    --color-secundari: rgb(61, 84, 47);
+    --font-titols: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: var(--font-titols);
+    margin: 20px;
+}
+
+h2 {
+    font-family: var(--font-titols);
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 22px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+}
+
+body {
+    background-color: var(--color-primari);
+}
+
+#barra > ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: var(--color-secundari);
+    height: 60px;
+}
+
+#barra a {
+    color: white;
+    font-size: 22px;
+}
+
+#barra a:hover {
+    border-bottom: 2px solid white;
+}
+
+.breakpoint {
+    width: var(--breakpoint);
+    margin: 0 auto;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--color-secundari);
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    align-content: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer > div {
+    width: 30%;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 24px;  
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+}
+
+footer a {
+    font-size: 16px;
+    color: white;
+    margin: 5px;
+    align-items: center;
+}
+
+#redes p:hover {
+    border-bottom: 2px solid white; 
+}
+
+#redes img:hover {
+    border-bottom: 2px solid white;
+}
+
+footer li {
+    margin: 5px;
+}
+
+footer li a:hover {
+    border-bottom: 2px solid white;
+}
+
+#apps img {
+    width: 40%;
+}
+
+#apps a:hover {
+    border-bottom: 2px solid white;
+}
+
+#redes img {
+    width: 8%;
+    margin: 2px;
+    border: solid 2px transparent;
+}
+
+#redes p {
+    margin: 5px;
+    border: solid 2px transparent;
+}
+
+#redes {
+    display: flex;
+    flex-direction: column;
+}
+
+#redes div a{
+    display: flex;
+    justify-content: center;  
+}
+
+/*hotel*/
+.breakpointHotel {
+    width: var(--breakpoint);
+    margin: auto;
+}
+
+/*recomendaciones*/
+#recomendaciones {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 0;
+}
+
+#recomendaciones h2 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+#imgRecomendaciones {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;  
+}
+
+#si li {
+    color: rgb(0, 80, 0);
+}
+
+#si h2 {
+    color: rgb(0, 80, 0);
+}
+
+#no li {
+    color: rgb(143, 0, 0);
+}
+
+#no h2 {
+    color: rgb(143, 0, 0);
+}
